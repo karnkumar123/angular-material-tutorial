@@ -34,6 +34,28 @@ module.exports = "<!--The content below is only a placeholder and can be replace
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/buttons/button-content/button-content.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/buttons/button-content/button-content.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div>\n    Add these in app.module.ts\n    <ul>\n        <li>\n            {{import}}\n        </li>\n        <li>\n            Add MatButtonModule in the imports array.\n        </li>\n        <li>\n            Go to any html files.\n        </li>\n        <li>\n            <ul>\n                <div>\n                    <button mat-button>Click me</button>  <span>{{btn}}</span>  <br>\n                    <button mat-raised-button>Click me</button>  <span>{{raisedBtn}}</span> <br>\n                    <button mat-flat-button>Click me</button>  <span>{{flatBtn}}</span> <br>\n                    <button mat-stroked-button>Click me</button> <span>{{strokedBtn}}</span> \n                </div>\n            </ul>\n        </li>\n        <li>\n            <ul>\n                <div>\n                    <button mat-icon-button>Icon</button> <span>{{icon}}</span> <br>\n                    <button mat-fab>Fab</button> <span>{{fab}}</span> <br>\n                    <button mat-mini-fab>Mini fab</button><span>{{miniFab}}</span> <br>\n                </div>\n            </ul>\n        </li>\n        <li>\n            <ul>\n                <li>\n                    <div>\n                        <button color=\"primary\" mat-button>Primary Color</button> <span>{{primary}}</span> <br>\n                        <button color=\"accent\" mat-button>Accent Color</button> <span>{{accent}}</span> <br>\n                        <button color=\"warn\" mat-button>Warn Color</button> <span>{{warn}}</span> <br>\n                    </div>\n                </li>\n                <li>\n                    <div>\n                        <button color=\"primary\" mat-raised-button>Primary Color</button> <span>{{primaryRaised}}</span> <br>\n                        <button color=\"accent\" mat-raised-button>Accent Color</button> <span>{{accentRaised}}</span> <br>\n                        <button color=\"warn\" mat-raised-button>Warn Color</button> <span>{{warnRaised}}</span> <br>\n                    </div>\n                </li>\n                <li>\n                    If we want to remove ripple effiect from Button, then just add disableRipple to the button\n                    <button mat-raised-button color=\"primary\" disableRipple>Disable Ripple Effect</button> <br>\n                    <span>{{disableRippleEffect}}</span> \n                </li>\n            </ul>\n        </li>\n    </ul>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/buttons/buttons.component.html":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/buttons/buttons.component.html ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<mat-expansion-panel>\n    <mat-expansion-panel-header>\n        <mat-panel-title>\n            Buttons\n        </mat-panel-title>\n        <mat-panel-description>\n            Total Duration: 30 mins\n        </mat-panel-description>\n    </mat-expansion-panel-header>\n    <app-button-content></app-button-content>\n</mat-expansion-panel>\n\n\n\n"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/components/main/getting-started/getting-started-content/getting-started-content.component.html":
 /*!******************************************************************************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/components/main/getting-started/getting-started-content/getting-started-content.component.html ***!
@@ -63,7 +85,7 @@ module.exports = "<mat-expansion-panel>\n    <mat-expansion-panel-header>\n     
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-getting-started></app-getting-started>\n<app-typography></app-typography>"
+module.exports = "<app-getting-started></app-getting-started>\n<app-typography></app-typography>\n<app-buttons></app-buttons>"
 
 /***/ }),
 
@@ -183,6 +205,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_main_getting_started_getting_started_content_getting_started_content_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/main/getting-started/getting-started-content/getting-started-content.component */ "./src/app/components/main/getting-started/getting-started-content/getting-started-content.component.ts");
 /* harmony import */ var _components_main_typography_typography_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/main/typography/typography.component */ "./src/app/components/main/typography/typography.component.ts");
 /* harmony import */ var _components_main_typography_typography_content_typography_content_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/main/typography/typography-content/typography-content.component */ "./src/app/components/main/typography/typography-content/typography-content.component.ts");
+/* harmony import */ var _components_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/buttons/buttons.component */ "./src/app/components/buttons/buttons.component.ts");
+/* harmony import */ var _components_buttons_button_content_button_content_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/buttons/button-content/button-content.component */ "./src/app/components/buttons/button-content/button-content.component.ts");
+
+
 
 
 
@@ -205,7 +231,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_main_getting_started_getting_started_content_getting_started_content_component__WEBPACK_IMPORTED_MODULE_9__["GettingStartedContentComponent"],
             _components_main_typography_typography_component__WEBPACK_IMPORTED_MODULE_10__["TypographyComponent"],
             _components_main_main_component__WEBPACK_IMPORTED_MODULE_7__["MainComponent"],
-            _components_main_typography_typography_content_typography_content_component__WEBPACK_IMPORTED_MODULE_11__["TypographyContentComponent"]
+            _components_main_typography_typography_content_typography_content_component__WEBPACK_IMPORTED_MODULE_11__["TypographyContentComponent"],
+            _components_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_12__["ButtonsComponent"],
+            _components_buttons_button_content_button_content_component__WEBPACK_IMPORTED_MODULE_13__["ButtonContentComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -217,6 +245,106 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/buttons/button-content/button-content.component.scss":
+/*!*********************************************************************************!*\
+  !*** ./src/app/components/buttons/button-content/button-content.component.scss ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "button {\n  margin: 0.3em;\n}\n\nspan {\n  background-color: burlywood;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9idXR0b25zL2J1dHRvbi1jb250ZW50L0M6XFxVc2Vyc1xca2Fybmt1bWFcXERlc2t0b3BcXHNlbGZfc3R1ZHlcXEFuZ3VsYXItbWF0ZXJpYWwtdHV0b3JpYWxcXHVpXFxtYXRlcmlhbC1hcHAvc3JjXFxhcHBcXGNvbXBvbmVudHNcXGJ1dHRvbnNcXGJ1dHRvbi1jb250ZW50XFxidXR0b24tY29udGVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9idXR0b25zL2J1dHRvbi1jb250ZW50L2J1dHRvbi1jb250ZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksYUFBQTtBQ0NKOztBRENBO0VBQ0ksMkJBQUE7QUNFSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9ucy9idXR0b24tY29udGVudC9idXR0b24tY29udGVudC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImJ1dHRvbntcclxuICAgIG1hcmdpbjogMC4zZW07XHJcbn1cclxuc3BhbntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJ1cmx5d29vZDtcclxufSIsImJ1dHRvbiB7XG4gIG1hcmdpbjogMC4zZW07XG59XG5cbnNwYW4ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBidXJseXdvb2Q7XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/components/buttons/button-content/button-content.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/components/buttons/button-content/button-content.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: ButtonContentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonContentComponent", function() { return ButtonContentComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ButtonContentComponent = class ButtonContentComponent {
+    constructor() {
+        this.import = `import { MatButtonModule} from '@angular/material';`;
+        this.btn = `<button mat-button>Click me</button>`;
+        this.flatBtn = `<button mat-flat-button>Click me</button>`;
+        this.raisedBtn = `<button mat-raised-button>Click me</button`;
+        this.strokedBtn = `<button mat-stroked-button>Click me</button>`;
+        this.icon = `<button mat-icon-button>Icon</button>`;
+        this.fab = `<button mat-fab>Fab</button>`;
+        this.miniFab = `<button mat-mini-fab>Mini fab</button>`;
+        this.primary = `<button color="primary" mat-button>Primary Color</button>`;
+        this.accent = ` <button color="accent" mat-button>Accent Color</button>`;
+        this.warn = `<button color="warn" mat-button>Warn Color</button>`;
+        this.primaryRaised = `<button color="primary" mat-raised-button>Primary Color</button>`;
+        this.accentRaised = ` <button color="accent" mat-raised-button>Accent Color</button>`;
+        this.warnRaised = `<button color="warn" mat-raised-button>Warn Color</button>`;
+        this.disableRippleEffect = `<button mat-raised-button color="primary" disableRipple>Disable Ripple Effect</button>`;
+    }
+    ngOnInit() {
+    }
+};
+ButtonContentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-button-content',
+        template: __webpack_require__(/*! raw-loader!./button-content.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/buttons/button-content/button-content.component.html"),
+        styles: [__webpack_require__(/*! ./button-content.component.scss */ "./src/app/components/buttons/button-content/button-content.component.scss")]
+    })
+], ButtonContentComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/buttons/buttons.component.scss":
+/*!***********************************************************!*\
+  !*** ./src/app/components/buttons/buttons.component.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9ucy9idXR0b25zLmNvbXBvbmVudC5zY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/components/buttons/buttons.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/components/buttons/buttons.component.ts ***!
+  \*********************************************************/
+/*! exports provided: ButtonsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonsComponent", function() { return ButtonsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ButtonsComponent = class ButtonsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ButtonsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-buttons',
+        template: __webpack_require__(/*! raw-loader!./buttons.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/buttons/buttons.component.html"),
+        styles: [__webpack_require__(/*! ./buttons.component.scss */ "./src/app/components/buttons/buttons.component.scss")]
+    })
+], ButtonsComponent);
 
 
 
@@ -358,7 +486,7 @@ MainComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".bgColor {\n  background-color: bisque;\n  font-size: smaller !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tYWluL3R5cG9ncmFwaHkvdHlwb2dyYXBoeS1jb250ZW50L0M6XFxVc2Vyc1xca2Fybmt1bWFcXERlc2t0b3BcXHNlbGZfc3R1ZHlcXEFuZ3VsYXItbWF0ZXJpYWwtdHV0b3JpYWxcXFVJXFxtYXRlcmlhbC1hcHAvc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1haW5cXHR5cG9ncmFwaHlcXHR5cG9ncmFwaHktY29udGVudFxcdHlwb2dyYXBoeS1jb250ZW50LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL21haW4vdHlwb2dyYXBoeS90eXBvZ3JhcGh5LWNvbnRlbnQvdHlwb2dyYXBoeS1jb250ZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksd0JBQUE7RUFDQSw2QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tYWluL3R5cG9ncmFwaHkvdHlwb2dyYXBoeS1jb250ZW50L3R5cG9ncmFwaHktY29udGVudC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iZ0NvbG9ye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmlzcXVlO1xyXG4gICAgZm9udC1zaXplOiBzbWFsbGVyICFpbXBvcnRhbnQ7XHJcbn0iLCIuYmdDb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJpc3F1ZTtcbiAgZm9udC1zaXplOiBzbWFsbGVyICFpbXBvcnRhbnQ7XG59Il19 */"
+module.exports = ".bgColor {\n  background-color: bisque;\n  font-size: smaller !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tYWluL3R5cG9ncmFwaHkvdHlwb2dyYXBoeS1jb250ZW50L0M6XFxVc2Vyc1xca2Fybmt1bWFcXERlc2t0b3BcXHNlbGZfc3R1ZHlcXEFuZ3VsYXItbWF0ZXJpYWwtdHV0b3JpYWxcXHVpXFxtYXRlcmlhbC1hcHAvc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1haW5cXHR5cG9ncmFwaHlcXHR5cG9ncmFwaHktY29udGVudFxcdHlwb2dyYXBoeS1jb250ZW50LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL21haW4vdHlwb2dyYXBoeS90eXBvZ3JhcGh5LWNvbnRlbnQvdHlwb2dyYXBoeS1jb250ZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksd0JBQUE7RUFDQSw2QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tYWluL3R5cG9ncmFwaHkvdHlwb2dyYXBoeS1jb250ZW50L3R5cG9ncmFwaHktY29udGVudC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iZ0NvbG9ye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmlzcXVlO1xyXG4gICAgZm9udC1zaXplOiBzbWFsbGVyICFpbXBvcnRhbnQ7XHJcbn0iLCIuYmdDb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJpc3F1ZTtcbiAgZm9udC1zaXplOiBzbWFsbGVyICFpbXBvcnRhbnQ7XG59Il19 */"
 
 /***/ }),
 
@@ -472,7 +600,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const MaterialComponents = [
-    _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"]
+    _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"]
 ];
 let MaterialModule = class MaterialModule {
 };
@@ -555,7 +684,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\karnkuma\Desktop\self_study\Angular-material-tutorial\UI\material-app\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\karnkuma\Desktop\self_study\Angular-material-tutorial\ui\material-app\src\main.ts */"./src/main.ts");
 
 
 /***/ })
